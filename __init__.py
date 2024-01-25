@@ -10,7 +10,7 @@ def hello_world():
     return render_template('hello.html')
 
 @app.route('/fr/')
-def hello_world():
+def BONjour():
     return "bonjour j'ai fini!"
                                                                                                                                        
 if __name__ == "__main__":
